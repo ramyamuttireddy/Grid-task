@@ -14,7 +14,7 @@ function Grid() {
                         <h2 className='text-[33px] leading-8 font-sans font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
-                        <img src="src/assets/illustration-create-post.webp" alt="" className='mt-[22px]' />
+                        <img src="https://cendyz.github.io/bento-grid-main/img/illustration-create-post.webp" alt="" className='mt-[22px]' />
                     </div>
 
                     {/* second card */}
