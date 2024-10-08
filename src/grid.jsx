@@ -1,4 +1,6 @@
-import './App.css'
+import './App.css';
+
+
 
 function Grid() {
 
@@ -6,7 +8,7 @@ function Grid() {
         <>
             <div className="bg-[#f1eeee] h-screen w-screen flex items-center justify-center">
 
-                <div className="grid  grid-cols-4 gap-4 m-auto w-[1000px]">
+                <div className="grid  grid-cols-4  gap-4 m-auto w-[1000px]">
 
                     {/* first card  */}
 
@@ -14,7 +16,7 @@ function Grid() {
                         <h2 className='text-[33px] leading-8 font-sans font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
-                        <img src="https://cendyz.github.io/bento-grid-main/img/illustration-create-post.webp" alt="" className='mt-[22px]' />
+                        <img src='./' alt="" className='mt-[22px]' />
                     </div>
 
                     {/* second card */}
@@ -24,7 +26,7 @@ function Grid() {
                             <span className='text-[#ffcb6b] font-medium'>10x </span>
                              <span className='italic'>Faster</span> with AI
                         </h1>
-                        <img src="https://cendyz.github.io/bento-grid-main/img/illustration-five-stars.webp" alt="" className='w-[280px] items-center mt-[18px] mb-[8px]' />
+                        <img src={Image/illustration-five-stars.webp} alt="" className='w-[280px] items-center mt-[18px] mb-[8px]' />
                         <p className="text-[18px] text-white font-light">Over 4,000 5-star reviews</p>
                     </div>
 
@@ -40,7 +42,7 @@ function Grid() {
 
                     <div className="bg-white row-span-2 p-[18px] rounded-[10px] overflow-hidden shadow-xl">
 
-                    <img src="https://cendyz.github.io/bento-grid-main/img/illustration-multiple-platforms.webp" alt="Social media links" className='w-[290px] h-[60px] ml-[30px]'/>
+                    <img src="https://cendyz.github.io/bento-grid-main/img/illustration-multiple-platforms.webp" alt="Social media links" className='w-[290px]  ml-[30px]'/>
                     <h2 className='text-[24px] font-[500] font-sans leading-tight text-balance mt-[12px] mr-[19px]'>Manage <br /> multiple <br /> accounts and <br />platforms.</h2>
 
                     </div>
@@ -48,8 +50,8 @@ function Grid() {
                     {/* fifth card */}
 
                     <div className="bg-[#ffcb6b] row-span-2 p-[18px_18px_0] relative overflow-hidden rounded-[10px] shadow-xl">
-                    <h2 className='text-[24px] mr-[24px] leading-tight font-[500]'>Maintain a consistent posting schedule.</h2>
-                    <img src="https://cendyz.github.io/bento-grid-main/img/illustration-consistent-schedule.webp" alt="Calendar with marks" className='w-[177px] h-[133px] mt-[18px]  absolute bottom-[-60px]'/>
+                    <h2 className='text-[24px] mr-[24px] leading-tight font-[500] '>Maintain a consistent posting schedule.</h2>
+                    <img src="https://cendyz.github.io/bento-grid-main/img/illustration-consistent-schedule.webp" alt="Calendar with marks" className='w-[177px] h-[133px]   absolute bottom-[-60px]'/>
                     </div>
 
                     {/* sixth card */}
