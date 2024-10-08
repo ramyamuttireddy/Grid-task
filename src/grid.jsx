@@ -1,5 +1,4 @@
-import './App.css';
-
+import './App.css'
 
 
 function Grid() {
@@ -16,7 +15,7 @@ function Grid() {
                         <h2 className='text-[33px] leading-8 font-sans font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
-                        <img src='./' alt="" className='mt-[22px]' />
+                        <img src='/assets/illustration-create-post.webp' alt="" className='mt-[22px]' />
                     </div>
 
                     {/* second card */}
