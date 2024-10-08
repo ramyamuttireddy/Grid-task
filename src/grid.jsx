@@ -1,5 +1,3 @@
-import './App.css'
-
 
 function Grid() {
 
@@ -15,7 +13,7 @@ function Grid() {
                         <h2 className='text-[33px] leading-8 font-sans font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
-                        <img src='/assets/illustration-create-post.webp' alt="" className='mt-[22px]' />
+                        <img src="/assets/illustration-create-post.webp" alt=""  className='mt-[22px]' />
                     </div>
 
                     {/* second card */}
@@ -25,7 +23,7 @@ function Grid() {
                             <span className='text-[#ffcb6b] font-medium'>10x </span>
                              <span className='italic'>Faster</span> with AI
                         </h1>
-                        <img src={Image/illustration-five-stars.webp} alt="" className='w-[280px] items-center mt-[18px] mb-[8px]' />
+                        <img src="/assets/illustration-five-stars.webp" alt="" className='w-[280px] items-center mt-[18px] mb-[8px]' />
                         <p className="text-[18px] text-white font-light">Over 4,000 5-star reviews</p>
                     </div>
 
