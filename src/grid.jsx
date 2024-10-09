@@ -3,7 +3,7 @@ function Grid() {
 
     return (
         <>
-            <div className="bg-[#f1eeee] h-full flex items-center justify-center font-dm">
+            <div className="bg-[#f1eeee] h-screen w-screen  flex items-center justify-center font-dm">
 
                 <div className="grid  grid-cols-4  gap-4 m-auto w-[1000px]">
 
