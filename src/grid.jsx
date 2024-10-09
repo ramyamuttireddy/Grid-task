@@ -9,7 +9,7 @@ function Grid() {
 
                     {/* first card  */}
 
-                    <div className="bg-[#f9eee1] row-span-2 rounded-[10px] p-[27px] shadow-xl">
+                    <div className="bg-[#1b1b1a] row-span-2 rounded-[10px] p-[27px] shadow-xl">
                         <h2 className='text-[33px] leading-8  font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
