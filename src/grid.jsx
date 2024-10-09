@@ -3,14 +3,14 @@ function Grid() {
 
     return (
         <>
-            <div className="bg-[#f1eeee] h-screen w-screen flex items-center justify-center">
+            <div className="bg-[#f1eeee] h-screen w-screen flex items-center justify-center font-dm">
 
                 <div className="grid  grid-cols-4  gap-4 m-auto w-[1000px]">
 
                     {/* first card  */}
 
                     <div className="bg-[#f9eee1] row-span-2 rounded-[10px] p-[27px] shadow-xl">
-                        <h2 className='text-[33px] leading-8 font-sans font-medium text-left mt-[25px]'>
+                        <h2 className='text-[33px] leading-8  font-medium text-left mt-[25px]'>
                             Create and schedule content <span className='text-[#7650dc] italic'>quicker.</span>
                         </h2>
                         <img src="/assets/illustration-create-post.webp" alt=""  className='mt-[22px]' />
@@ -40,7 +40,7 @@ function Grid() {
                     <div className="bg-white row-span-2 p-[18px] rounded-[10px] overflow-hidden shadow-xl">
 
                     <img src="https://cendyz.github.io/bento-grid-main/img/illustration-multiple-platforms.webp" alt="Social media links" className='w-[290px]  ml-[30px]'/>
-                    <h2 className='text-[24px] font-[500] font-sans leading-tight text-balance mt-[12px] mr-[19px]'>Manage <br /> multiple <br /> accounts and <br />platforms.</h2>
+                    <h2 className='text-[24px] font-[500] leading-tight text-balance mt-[12px] mr-[19px]'>Manage <br /> multiple <br /> accounts and <br />platforms.</h2>
 
                     </div>
 
@@ -54,14 +54,14 @@ function Grid() {
                     {/* sixth card */}
 
                     <div className="bg-[#ffcb6b] row-span-2 rounded-[10px] p-[1em] flex flex-col justify-around shadow-xl">
-                    <h2 className='text-[24px] font-[500] leading-tight font-sans mr-[28px] pt-3'>Write your content using AI.</h2>
+                    <h2 className='text-[24px] font-[500] leading-tight  mr-[28px] pt-3'>Write your content using AI.</h2>
                     <img src="https://cendyz.github.io/bento-grid-main/img/illustration-ai-content.webp" alt="Conversation"  className='w-[200px] h-[203px] mt-[27px]'/>
                     </div>
 
                     {/* seven card */}
 
                     <div className="bg-white p-[18px] rounded-[10px] shadow-xl">
-                    <h2 className='text-[53px] font-[500] font-sans'>&gt;56%</h2>
+                    <h2 className='text-[53px] font-[500] '>&gt;56%</h2>
 				<p className='text-[16px] m-[8px_0_32px]'>faster audience growth</p>
 				<img src="https://cendyz.github.io/bento-grid-main/img/illustration-audience-growth.webp" alt="People profile pictures"  className='w-[160px]'/>
                     </div>
